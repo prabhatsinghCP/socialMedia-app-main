@@ -1,0 +1,43 @@
+.app_navbar{
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .app_navbar a{
+    color:black;
+  }
+  .app_navbar ul a{
+    font-size: 1.3rem;
+    font-family: "Montserrat bold",sans-serif;
+  }
+  .brand-logo{
+    font-family: "Grand Hotel Black",cursive;
+
+  }
+  @media  screen and (max-width:1000px) {
+.list{
+  display:flex !important;
+  flex-direction: column !important ;
+  top:48px;
+  right:10px;
+  position:absolute;
+  z-index: 1000;
+  box-shadow: 1px 1px 1px lightgray;
+  border: 1px solid lightgray;
+  border-radius: 2%;
+  padding:5px;
+  background-color: #F4F9F9;
+}
+
+.button{
+  position:absolute ;
+  right:15px ;
+  top:7px ;
+  height:2rem ;
+  color:black;
+ 
+}
+    
+  }
+.collection-item{
+  width:100% 
+}

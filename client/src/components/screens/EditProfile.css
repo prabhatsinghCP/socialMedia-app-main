@@ -1,0 +1,54 @@
+.editprofile_card{
+    display: flex;
+    justify-content: center;
+}
+.edit_card{
+    display: flex;
+    flex-direction: column;
+   margin-top:20px;
+    padding:40px;
+    padding-top:20px;
+    width:30%
+}
+.edit_card img{
+    height: 150px;
+    width:150px;
+    margin:5px auto 30px 10px;
+    border-radius: 75px;
+}
+
+.edit_card div{
+    display:flex;
+    flex-direction: row;
+}
+.edit_card h6{
+    margin:auto 20px;
+    font-weight: 500;
+}
+.pic_card{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.pic_button{
+    margin-bottom: 10px;
+    width:50%;
+    margin-left:35px;
+  
+}
+.save_button{
+    width:60%;
+    margin-left: 40px;
+    margin-top:20px
+}
+.deleteaccount{
+   margin-left:60%;
+   margin-top:0;
+   font-weight: 500;
+   border:1px solid lightgray;
+   padding:5px;
+   cursor: pointer;
+   
+}
+.deleteaccount:hover{
+    box-shadow: 1px 1px 3px lightgray;
+}

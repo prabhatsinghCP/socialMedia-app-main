@@ -1,0 +1,46 @@
+.home_card{
+    max-width: 500px;
+    height: max-content;
+    margin:26px auto;
+    padding: 5px 0;
+}
+.home_card h5{
+    padding-left: 10px;
+    margin-top:6px;
+}
+.username_link{
+    color:black;
+    font-weight: 600;
+}
+.home_card  h5 i{
+    float:right;
+}
+i{
+    cursor: pointer;
+}
+.comment_div{
+    display: flex;
+    flex-direction: row;
+}
+.comment_div button{
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border:none;
+    color:blue;
+    cursor:pointer
+}
+
+.no_post{
+    text-align: center;
+    margin-top:10%;
+    color:gray
+}
+.post_avatar{
+ float:left;
+ margin-right:13px;
+ margin-left:5px;
+ border-radius: 100%;
+ border:1px solid white;
+ outline: 1.6px solid purple;
+}

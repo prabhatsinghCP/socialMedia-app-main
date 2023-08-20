@@ -1,0 +1,28 @@
+.auth_card{
+    max-width: 400px;
+    padding:20px;
+    text-align: center;
+}
+.signup_card{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.auth_card input:focus{
+    border-bottom: 1px solid #64b5f6 !important;
+    box-shadow:0 1px 0 0 #64b5f6 !important;
+}
+h3{
+    font-family: "Grand Hotel Black",cursive;
+}
+.auth_card button{
+    font-weight: 600;
+}
+.username_field{
+    display:flex;
+}
+.username_field label{
+    font-size: 1.4rem;
+    color:red;
+    padding-right: 10px;
+}

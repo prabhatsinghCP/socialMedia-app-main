@@ -1,0 +1,27 @@
+.follower_list {
+    display:flex;
+
+    justify-content: center ;
+}
+.follow_card{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   padding:10px;
+   padding-top: 0;
+  width: 40%;
+}
+.follow_card h4{
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+.follow_card .collection_item{
+    display:flex;
+    flex-direction: row;
+    font-size: 1.4rem;
+}
+.follow_card .avatar{
+    margin-right: 10px;
+}
