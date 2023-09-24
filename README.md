@@ -1,2 +1,3 @@
-# social-media-app
+# Chat-vibe
+
 URL - https://nice-red-crayfish-hose.cyclic.app/
